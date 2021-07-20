@@ -19,14 +19,12 @@
   --transition: all .3s ease-in-out;
 }
 
-
 /* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 }
-
 
 /* Global styling */
 html {
@@ -92,7 +90,6 @@ a {
 /* Utility classes */
 .py-4 {padding: 4rem 0;}
 
-
 .container {
   max-width: 1170px;  
   margin: 0 auto;  
@@ -129,15 +126,13 @@ a {
   width: 100%;
   padding: 0 1rem;
   text-align: center;
-  margin-bottom: 3.75rem;
-  
+  margin-bottom: 3.75rem;  
 }
 
 .section-title h2 {
   font-size: 2.1rem;
   text-transform: capitalize;
   color: var(--light-color);
-
 }
 
 .section-title h2::before {
@@ -213,8 +208,7 @@ a {
     height: 3px;
     background-color: var(--primary-color);
     transition: var(--transition);
-    transform-origin: 2px 1px;
-        
+    transform-origin: 2px 1px;        
   }
 
   .nav-hamburger > span:not(:last-child) {
@@ -265,8 +259,7 @@ a {
 
   .nav ul li a:hover::before {
     opacity: 0;
-  }
-  
+  }  
 }
 
 /* Home section */
@@ -403,7 +396,6 @@ a {
   100% {
     transform: rotate(720deg);
   }
-
 }
 
 .about-img .img-box h3 {
@@ -420,7 +412,6 @@ a {
   color: var(--dark-color);
   text-transform: capitalize;
 }
-
 
 /* Menu section */
 .menu-section {
@@ -612,8 +603,7 @@ a {
 @media (max-width: 575px) {
   .team-item {
     width: 100%;    
-  }           
-                     
+  }                                
 }
 
 .team-item img {
@@ -660,7 +650,6 @@ a {
 .team-item:hover .team-item-info p {
   color: var(--white);
 }
-
 
 /* Footer */
 .footer {

@@ -17,8 +17,6 @@ document.addEventListener('click', (e) => {
   }
 })
 
-
-
 // Menu tabs
 const menuTabs = document.querySelector('.menu-tabs');
 menuTabs.addEventListener('click', (e) => {

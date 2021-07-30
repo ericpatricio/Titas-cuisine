@@ -285,17 +285,21 @@ a {
 
 .home-section .home-bg {
   background-size: cover;
-  max-width: 100%;  
-  height: 100%;
   background-image: url('../images/home-bg01.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  max-width: 100%;
+  width: 100%;  
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;   
   z-index: -2;
   animation: zoomInOut 20s ease infinite;
+  
+  
+  
 }
 
 @keyframes zoomInOut {
